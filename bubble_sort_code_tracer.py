@@ -155,7 +155,7 @@ def make_tracer_animation(arr, interval=220, title="Bubble Sort: code tracer"):
 
     # Status text objects
     op_text = ax_status.text(0.01, 0.65, "op: idle", transform=ax_status.transAxes, fontsize=11, fontfamily='monospace')
-    info_text = ax_status.text(0.01, 0.15, "", transform=ax_status.transAxes, fontsize=10, fontfamily='monospace', color='#dfefff')
+    info_text = ax_status.text(0.01, 0.15, "", transform=ax_status.transAxes, fontsize=10, fontfamily='monospace', color='#000000')
 
     comparisons = 0
     swaps = 0
