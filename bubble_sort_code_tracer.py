@@ -111,7 +111,7 @@ def make_tracer_animation(arr, interval=220, title="Bubble Sort: code tracer"):
     indices = np.arange(n)
 
     # Build figure with three areas: code (left), bars (right), status (bottom)
-    fig = plt.figure(figsize=(12, 6))
+    fig = plt.figure(figsize=(13, 6))
     # Grid layout: left 40% (code), right 60% (bars)
     gs = fig.add_gridspec(2, 3, height_ratios=[6, 1], width_ratios=[2, 2, 1], hspace=0.25, wspace=0.3)
 
@@ -137,7 +137,7 @@ def make_tracer_animation(arr, interval=220, title="Bubble Sort: code tracer"):
     code_texts = []
     for i, line in enumerate(SOURCE):
         t = ax_code.text(0.01, code_y[i], line.rstrip(), transform=ax_code.transAxes,
-                         fontsize=10, fontfamily='monospace', va='top', color='#dfefff')
+                         fontsize=10, fontfamily='monospace', va='top', color='#000000')
         code_texts.append(t)
 
     # Rectangle to highlight current line (using axes coords)
