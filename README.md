@@ -7,7 +7,7 @@ Contents:
 - `index.html` — D3 web visualization of Bubble Sort.
 - `bubble_sort_visual.py` — Matplotlib animation of Bubble Sort.
 - `bubble_sort_code_tracer.py` — Code-level tracer script using matplotlib.
-- `chat-transcript.md` — (optional) saved transcript of the conversation and instructions.
+
 
 How to run:
 - Notebook: open `bubble_sort_tracer.ipynb` in Jupyter Notebook or JupyterLab (ipywidgets required).
